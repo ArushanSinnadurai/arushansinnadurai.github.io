@@ -3,6 +3,7 @@ body {
     font-family: 'Assistant', sans-serif;
     font-size: 18px;
     color: #5a5959;
+    margin: 0px;
 }
 .card{
     margin: 4vh 0;
