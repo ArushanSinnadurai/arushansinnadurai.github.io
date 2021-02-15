@@ -2,8 +2,46 @@
 <html>
     <head>
         <title>About me</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant" > 
+        <link rel="stylesheet" href="../css/aboutme.css">
+        <link rel="shortcut icon" href="./icons/favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../icons/favicon/apple-touch-icon.png">
+        <link rel="manifest" href="../icons/favicon/site.webmanifest">
     </head>
     <body>
-        
+        <div class="topnav">
+            <a id="nav-home" href="/">
+                Home
+            </a>
+            <a id="nav-about" href="/about/">
+                About me
+            </a>
+        </div> 
+        <div class="card">
+            <div class="image-wrap">
+                <img src="../icons/ArushanSinnadurai.jpg" id="profile-photo"  alt="Headshot of Arushan Sinnadurai" width="400" height="500" />
+            </div>
+            <p class="text">
+                To introduction myself, I am currently studying biomedical and electrical engineering at Carleton University and I’m expected to graduate at the end of May 2021.
+            </p>
+            <p class="text">
+                
+            </p>
+        </div>
+
+        <h2>Contact Me </h2>
+
+        <form id="contactform" action="https://formspree.io/f/mgepbkyo" method="POST">
+            <input type="text" id="name" name="name" placeholder="Example: Wade Wilson">
+            <input type="email" id="_replyto" name="_replyto" placeholder="Example: WadeWilson@gmail.com">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <input type="submit" value="Send">
+            <label for="subject">Subject</label>
+          </form>
     </body>
 </html>
+
+
